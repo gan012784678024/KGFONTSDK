@@ -7,7 +7,7 @@
 //
 
 #import "ONTNetworkService.h"
-#import <AFNetworking/AFNetworking.h>
+#import "AFNetworking.h"
 
 @implementation ONTNetworkService
 

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BFE7FAA54063EF1A6669F99 /* libPods-ONTWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E11E61A23B1FC93A6B8DCC23 /* libPods-ONTWalletTests.a */; };
 		707C470F226EBF4700C3B2B4 /* ONTNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C4645226EBF4700C3B2B4 /* ONTNetworkService.m */; };
 		707C4710226EBF4700C3B2B4 /* ONTRestfulApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C4646226EBF4700C3B2B4 /* ONTRestfulApi.m */; };
 		707C4711226EBF4700C3B2B4 /* ONTRpcApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C4647226EBF4700C3B2B4 /* ONTRpcApi.m */; };
@@ -35,7 +34,6 @@
 		707C4727226EBF4700C3B2B4 /* bignum.c in Sources */ = {isa = PBXBuildFile; fileRef = 707C467F226EBF4700C3B2B4 /* bignum.c */; };
 		707C4728226EBF4700C3B2B4 /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 707C4684226EBF4700C3B2B4 /* ripemd160.c */; };
 		707C4729226EBF4700C3B2B4 /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = 707C4685226EBF4700C3B2B4 /* uECC.c */; };
-		707C472A226EBF4700C3B2B4 /* secp256k1.table in Resources */ = {isa = PBXBuildFile; fileRef = 707C4687226EBF4700C3B2B4 /* secp256k1.table */; };
 		707C472B226EBF4700C3B2B4 /* memzero.c in Sources */ = {isa = PBXBuildFile; fileRef = 707C4689226EBF4700C3B2B4 /* memzero.c */; };
 		707C472C226EBF4700C3B2B4 /* secp256k1_zkp.c in Sources */ = {isa = PBXBuildFile; fileRef = 707C4696226EBF4700C3B2B4 /* secp256k1_zkp.c */; };
 		707C472D226EBF4700C3B2B4 /* scrypt_sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 707C46B3226EBF4700C3B2B4 /* scrypt_sha256.c */; };
@@ -79,40 +77,29 @@
 		707C4753226EBF4700C3B2B4 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C4708226EBF4700C3B2B4 /* NSData+Hash.m */; };
 		707C4754226EBF4700C3B2B4 /* SHAHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C470B226EBF4700C3B2B4 /* SHAHash.m */; };
 		707C4755226EBF4700C3B2B4 /* NSMutableData+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C470C226EBF4700C3B2B4 /* NSMutableData+Extend.m */; };
+		70EA5AC522700EE600486863 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5A9D22700EE600486863 /* UIAlertView+AFNetworking.m */; };
+		70EA5AC622700EE600486863 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5A9E22700EE600486863 /* UIProgressView+AFNetworking.m */; };
+		70EA5AC722700EE600486863 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AA022700EE600486863 /* UIRefreshControl+AFNetworking.m */; };
+		70EA5AC822700EE600486863 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AA222700EE600486863 /* AFNetworkActivityIndicatorManager.m */; };
+		70EA5AC922700EE600486863 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AA822700EE600486863 /* UIImageView+AFNetworking.m */; };
+		70EA5ACA22700EE600486863 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AAB22700EE600486863 /* UIButton+AFNetworking.m */; };
+		70EA5ACB22700EE600486863 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AAC22700EE600486863 /* UIActivityIndicatorView+AFNetworking.m */; };
+		70EA5ACC22700EE600486863 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AAD22700EE600486863 /* UIWebView+AFNetworking.m */; };
+		70EA5ACD22700EE600486863 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AB722700EE600486863 /* AFURLResponseSerialization.m */; };
+		70EA5ACE22700EE600486863 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AB822700EE600486863 /* AFHTTPSessionManager.m */; };
+		70EA5ACF22700EE600486863 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AB922700EE600486863 /* AFURLConnectionOperation.m */; };
+		70EA5AD022700EE600486863 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5ABB22700EE600486863 /* AFURLSessionManager.m */; };
+		70EA5AD122700EE600486863 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5ABC22700EE600486863 /* AFHTTPRequestOperationManager.m */; };
+		70EA5AD222700EE600486863 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5ABD22700EE600486863 /* AFURLRequestSerialization.m */; };
+		70EA5AD322700EE600486863 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5ABE22700EE600486863 /* AFHTTPRequestOperation.m */; };
+		70EA5AD422700EE600486863 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AC022700EE600486863 /* AFNetworkReachabilityManager.m */; };
+		70EA5AD522700EE600486863 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA5AC122700EE600486863 /* AFSecurityPolicy.m */; };
 		731EB0AD20F8447000A1C4D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 731EB0AC20F8447000A1C4D0 /* AppDelegate.m */; };
 		731EB0B020F8447000A1C4D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731EB0AF20F8447000A1C4D0 /* ViewController.m */; };
-		731EB0B320F8447000A1C4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731EB0B120F8447000A1C4D0 /* Main.storyboard */; };
-		731EB0B520F8447300A1C4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731EB0B420F8447300A1C4D0 /* Assets.xcassets */; };
-		731EB0B820F8447300A1C4D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731EB0B620F8447300A1C4D0 /* LaunchScreen.storyboard */; };
 		731EB0BB20F8447300A1C4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 731EB0BA20F8447300A1C4D0 /* main.m */; };
-		731EB0C520F8447300A1C4D0 /* ONTWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731EB0C420F8447300A1C4D0 /* ONTWalletTests.m */; };
-		731EB0D020F8447300A1C4D0 /* ONTWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731EB0CF20F8447300A1C4D0 /* ONTWalletUITests.m */; };
-		7BE6E887FA43E93BBBABFDDE /* libPods-ONTWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9CF875B66657AC2E4D93F9 /* libPods-ONTWallet.a */; };
-		DF83CC2B26D8D6B1F96B032B /* libPods-ONTWalletUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA427CD66D7CCC78FA3219A3 /* libPods-ONTWalletUITests.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		731EB0C120F8447300A1C4D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 731EB0A020F8447000A1C4D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 731EB0A720F8447000A1C4D0;
-			remoteInfo = ONTWallet;
-		};
-		731EB0CC20F8447300A1C4D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 731EB0A020F8447000A1C4D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 731EB0A720F8447000A1C4D0;
-			remoteInfo = ONTWallet;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1A7E3002F8075FAC95E4635D /* Pods-ONTWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONTWallet/Pods-ONTWallet.release.xcconfig"; sourceTree = "<group>"; };
-		1B002374B5A3B6DDFB36B14F /* Pods-ONTWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ONTWalletTests/Pods-ONTWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
-		508A6CADBA3604F0B73D3018 /* Pods-ONTWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ONTWalletUITests/Pods-ONTWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D487DF2A23FCAD186719A5E /* Pods-ONTWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ONTWallet/Pods-ONTWallet.debug.xcconfig"; sourceTree = "<group>"; };
 		707C4643226EBF4700C3B2B4 /* ONTRestfulApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONTRestfulApi.h; sourceTree = "<group>"; };
 		707C4644226EBF4700C3B2B4 /* ONTRpcApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONTRpcApi.h; sourceTree = "<group>"; };
 		707C4645226EBF4700C3B2B4 /* ONTNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONTNetworkService.m; sourceTree = "<group>"; };
@@ -296,6 +283,45 @@
 		707C470C226EBF4700C3B2B4 /* NSMutableData+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Extend.m"; sourceTree = "<group>"; };
 		707C470D226EBF4700C3B2B4 /* NSData+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
 		707C470E226EBF4700C3B2B4 /* NSString+Base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base58.h"; sourceTree = "<group>"; };
+		70EA5A9A22700EE600486863 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		70EA5A9B22700EE600486863 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		70EA5A9D22700EE600486863 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		70EA5A9E22700EE600486863 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		70EA5A9F22700EE600486863 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		70EA5AA022700EE600486863 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		70EA5AA122700EE600486863 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		70EA5AA222700EE600486863 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		70EA5AA322700EE600486863 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		70EA5AA422700EE600486863 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		70EA5AA522700EE600486863 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		70EA5AA622700EE600486863 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		70EA5AA722700EE600486863 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		70EA5AA822700EE600486863 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		70EA5AA922700EE600486863 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		70EA5AAA22700EE600486863 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		70EA5AAB22700EE600486863 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		70EA5AAC22700EE600486863 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		70EA5AAD22700EE600486863 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		70EA5AAE22700EE600486863 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		70EA5AB022700EE600486863 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		70EA5AB122700EE600486863 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		70EA5AB222700EE600486863 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		70EA5AB322700EE600486863 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		70EA5AB422700EE600486863 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		70EA5AB522700EE600486863 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		70EA5AB622700EE600486863 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		70EA5AB722700EE600486863 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		70EA5AB822700EE600486863 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		70EA5AB922700EE600486863 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		70EA5ABA22700EE600486863 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		70EA5ABB22700EE600486863 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		70EA5ABC22700EE600486863 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		70EA5ABD22700EE600486863 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		70EA5ABE22700EE600486863 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		70EA5ABF22700EE600486863 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		70EA5AC022700EE600486863 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		70EA5AC122700EE600486863 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		70EA5AC222700EE600486863 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		731EB0A820F8447000A1C4D0 /* ONTWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONTWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		731EB0AB20F8447000A1C4D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		731EB0AC20F8447000A1C4D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -306,17 +332,6 @@
 		731EB0B720F8447300A1C4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		731EB0B920F8447300A1C4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		731EB0BA20F8447300A1C4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		731EB0C020F8447300A1C4D0 /* ONTWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONTWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		731EB0C420F8447300A1C4D0 /* ONTWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONTWalletTests.m; sourceTree = "<group>"; };
-		731EB0C620F8447300A1C4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		731EB0CB20F8447300A1C4D0 /* ONTWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONTWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		731EB0CF20F8447300A1C4D0 /* ONTWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONTWalletUITests.m; sourceTree = "<group>"; };
-		731EB0D120F8447300A1C4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C554FFA8220B7C411316F73D /* Pods-ONTWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONTWalletTests/Pods-ONTWalletTests.release.xcconfig"; sourceTree = "<group>"; };
-		CB9CF875B66657AC2E4D93F9 /* libPods-ONTWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ONTWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E11E61A23B1FC93A6B8DCC23 /* libPods-ONTWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ONTWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F05A289613B1909F132C17D1 /* Pods-ONTWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONTWalletUITests/Pods-ONTWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FA427CD66D7CCC78FA3219A3 /* libPods-ONTWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ONTWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,40 +339,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BE6E887FA43E93BBBABFDDE /* libPods-ONTWallet.a in Frameworks */,
 				707C4715226EBF4700C3B2B4 /* neoutils.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		731EB0BD20F8447300A1C4D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BFE7FAA54063EF1A6669F99 /* libPods-ONTWalletTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		731EB0C820F8447300A1C4D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF83CC2B26D8D6B1F96B032B /* libPods-ONTWalletUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25B12D6CFA23DAE556816B25 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CB9CF875B66657AC2E4D93F9 /* libPods-ONTWallet.a */,
-				E11E61A23B1FC93A6B8DCC23 /* libPods-ONTWalletTests.a */,
-				FA427CD66D7CCC78FA3219A3 /* libPods-ONTWalletUITests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		707C4641226EBF4700C3B2B4 /* KGFONTSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -724,15 +712,73 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		70EA5A9922700EE600486863 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				70EA5A9A22700EE600486863 /* LICENSE */,
+				70EA5A9B22700EE600486863 /* README.md */,
+				70EA5A9C22700EE600486863 /* UIKit+AFNetworking */,
+				70EA5AAF22700EE600486863 /* AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		70EA5A9C22700EE600486863 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				70EA5A9D22700EE600486863 /* UIAlertView+AFNetworking.m */,
+				70EA5A9E22700EE600486863 /* UIProgressView+AFNetworking.m */,
+				70EA5A9F22700EE600486863 /* UIButton+AFNetworking.h */,
+				70EA5AA022700EE600486863 /* UIRefreshControl+AFNetworking.m */,
+				70EA5AA122700EE600486863 /* UIImageView+AFNetworking.h */,
+				70EA5AA222700EE600486863 /* AFNetworkActivityIndicatorManager.m */,
+				70EA5AA322700EE600486863 /* UIWebView+AFNetworking.h */,
+				70EA5AA422700EE600486863 /* UIActivityIndicatorView+AFNetworking.h */,
+				70EA5AA522700EE600486863 /* UIAlertView+AFNetworking.h */,
+				70EA5AA622700EE600486863 /* UIImage+AFNetworking.h */,
+				70EA5AA722700EE600486863 /* UIProgressView+AFNetworking.h */,
+				70EA5AA822700EE600486863 /* UIImageView+AFNetworking.m */,
+				70EA5AA922700EE600486863 /* UIKit+AFNetworking.h */,
+				70EA5AAA22700EE600486863 /* UIRefreshControl+AFNetworking.h */,
+				70EA5AAB22700EE600486863 /* UIButton+AFNetworking.m */,
+				70EA5AAC22700EE600486863 /* UIActivityIndicatorView+AFNetworking.m */,
+				70EA5AAD22700EE600486863 /* UIWebView+AFNetworking.m */,
+				70EA5AAE22700EE600486863 /* AFNetworkActivityIndicatorManager.h */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		70EA5AAF22700EE600486863 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				70EA5AB022700EE600486863 /* AFSecurityPolicy.h */,
+				70EA5AB122700EE600486863 /* AFNetworkReachabilityManager.h */,
+				70EA5AB222700EE600486863 /* AFHTTPRequestOperation.h */,
+				70EA5AB322700EE600486863 /* AFHTTPRequestOperationManager.h */,
+				70EA5AB422700EE600486863 /* AFURLSessionManager.h */,
+				70EA5AB522700EE600486863 /* AFURLRequestSerialization.h */,
+				70EA5AB622700EE600486863 /* AFURLConnectionOperation.h */,
+				70EA5AB722700EE600486863 /* AFURLResponseSerialization.m */,
+				70EA5AB822700EE600486863 /* AFHTTPSessionManager.m */,
+				70EA5AB922700EE600486863 /* AFURLConnectionOperation.m */,
+				70EA5ABA22700EE600486863 /* AFURLResponseSerialization.h */,
+				70EA5ABB22700EE600486863 /* AFURLSessionManager.m */,
+				70EA5ABC22700EE600486863 /* AFHTTPRequestOperationManager.m */,
+				70EA5ABD22700EE600486863 /* AFURLRequestSerialization.m */,
+				70EA5ABE22700EE600486863 /* AFHTTPRequestOperation.m */,
+				70EA5ABF22700EE600486863 /* AFNetworking.h */,
+				70EA5AC022700EE600486863 /* AFNetworkReachabilityManager.m */,
+				70EA5AC122700EE600486863 /* AFSecurityPolicy.m */,
+				70EA5AC222700EE600486863 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		731EB09F20F8447000A1C4D0 = {
 			isa = PBXGroup;
 			children = (
 				731EB0AA20F8447000A1C4D0 /* ONTWallet */,
-				731EB0C320F8447300A1C4D0 /* ONTWalletTests */,
-				731EB0CE20F8447300A1C4D0 /* ONTWalletUITests */,
 				731EB0A920F8447000A1C4D0 /* Products */,
-				91841FDC4A836373E9CFD186 /* Pods */,
-				25B12D6CFA23DAE556816B25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -740,8 +786,6 @@
 			isa = PBXGroup;
 			children = (
 				731EB0A820F8447000A1C4D0 /* ONTWallet.app */,
-				731EB0C020F8447300A1C4D0 /* ONTWalletTests.xctest */,
-				731EB0CB20F8447300A1C4D0 /* ONTWalletUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -749,6 +793,7 @@
 		731EB0AA20F8447000A1C4D0 /* ONTWallet */ = {
 			isa = PBXGroup;
 			children = (
+				70EA5A9922700EE600486863 /* AFNetworking */,
 				707C4641226EBF4700C3B2B4 /* KGFONTSDK */,
 				731EB0AB20F8447000A1C4D0 /* AppDelegate.h */,
 				731EB0AC20F8447000A1C4D0 /* AppDelegate.m */,
@@ -763,37 +808,6 @@
 			path = ONTWallet;
 			sourceTree = "<group>";
 		};
-		731EB0C320F8447300A1C4D0 /* ONTWalletTests */ = {
-			isa = PBXGroup;
-			children = (
-				731EB0C420F8447300A1C4D0 /* ONTWalletTests.m */,
-				731EB0C620F8447300A1C4D0 /* Info.plist */,
-			);
-			path = ONTWalletTests;
-			sourceTree = "<group>";
-		};
-		731EB0CE20F8447300A1C4D0 /* ONTWalletUITests */ = {
-			isa = PBXGroup;
-			children = (
-				731EB0CF20F8447300A1C4D0 /* ONTWalletUITests.m */,
-				731EB0D120F8447300A1C4D0 /* Info.plist */,
-			);
-			path = ONTWalletUITests;
-			sourceTree = "<group>";
-		};
-		91841FDC4A836373E9CFD186 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5D487DF2A23FCAD186719A5E /* Pods-ONTWallet.debug.xcconfig */,
-				1A7E3002F8075FAC95E4635D /* Pods-ONTWallet.release.xcconfig */,
-				1B002374B5A3B6DDFB36B14F /* Pods-ONTWalletTests.debug.xcconfig */,
-				C554FFA8220B7C411316F73D /* Pods-ONTWalletTests.release.xcconfig */,
-				508A6CADBA3604F0B73D3018 /* Pods-ONTWalletUITests.debug.xcconfig */,
-				F05A289613B1909F132C17D1 /* Pods-ONTWalletUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -801,10 +815,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 731EB0D420F8447300A1C4D0 /* Build configuration list for PBXNativeTarget "ONTWallet" */;
 			buildPhases = (
-				063B5FD78A8C54DF49C76274 /* [CP] Check Pods Manifest.lock */,
 				731EB0A420F8447000A1C4D0 /* Sources */,
 				731EB0A520F8447000A1C4D0 /* Frameworks */,
-				731EB0A620F8447000A1C4D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -814,44 +826,6 @@
 			productName = ONTWallet;
 			productReference = 731EB0A820F8447000A1C4D0 /* ONTWallet.app */;
 			productType = "com.apple.product-type.application";
-		};
-		731EB0BF20F8447300A1C4D0 /* ONTWalletTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 731EB0D720F8447300A1C4D0 /* Build configuration list for PBXNativeTarget "ONTWalletTests" */;
-			buildPhases = (
-				4B8E0FC1FF278197A3F6005E /* [CP] Check Pods Manifest.lock */,
-				731EB0BC20F8447300A1C4D0 /* Sources */,
-				731EB0BD20F8447300A1C4D0 /* Frameworks */,
-				731EB0BE20F8447300A1C4D0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				731EB0C220F8447300A1C4D0 /* PBXTargetDependency */,
-			);
-			name = ONTWalletTests;
-			productName = ONTWalletTests;
-			productReference = 731EB0C020F8447300A1C4D0 /* ONTWalletTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		731EB0CA20F8447300A1C4D0 /* ONTWalletUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 731EB0DA20F8447300A1C4D0 /* Build configuration list for PBXNativeTarget "ONTWalletUITests" */;
-			buildPhases = (
-				B7EEC32F0C5755E751EBC841 /* [CP] Check Pods Manifest.lock */,
-				731EB0C720F8447300A1C4D0 /* Sources */,
-				731EB0C820F8447300A1C4D0 /* Frameworks */,
-				731EB0C920F8447300A1C4D0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				731EB0CD20F8447300A1C4D0 /* PBXTargetDependency */,
-			);
-			name = ONTWalletUITests;
-			productName = ONTWalletUITests;
-			productReference = 731EB0CB20F8447300A1C4D0 /* ONTWalletUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -864,14 +838,6 @@
 				TargetAttributes = {
 					731EB0A720F8447000A1C4D0 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					731EB0BF20F8447300A1C4D0 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 731EB0A720F8447000A1C4D0;
-					};
-					731EB0CA20F8447300A1C4D0 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 731EB0A720F8447000A1C4D0;
 					};
 				};
 			};
@@ -889,96 +855,9 @@
 			projectRoot = "";
 			targets = (
 				731EB0A720F8447000A1C4D0 /* ONTWallet */,
-				731EB0BF20F8447300A1C4D0 /* ONTWalletTests */,
-				731EB0CA20F8447300A1C4D0 /* ONTWalletUITests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		731EB0A620F8447000A1C4D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				731EB0B820F8447300A1C4D0 /* LaunchScreen.storyboard in Resources */,
-				707C472A226EBF4700C3B2B4 /* secp256k1.table in Resources */,
-				731EB0B520F8447300A1C4D0 /* Assets.xcassets in Resources */,
-				731EB0B320F8447000A1C4D0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		731EB0BE20F8447300A1C4D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		731EB0C920F8447300A1C4D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		063B5FD78A8C54DF49C76274 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ONTWallet-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4B8E0FC1FF278197A3F6005E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ONTWalletTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B7EEC32F0C5755E751EBC841 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ONTWalletUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		731EB0A420F8447000A1C4D0 /* Sources */ = {
@@ -989,10 +868,12 @@
 				707C4746226EBF4700C3B2B4 /* ONTStruct.m in Sources */,
 				707C472C226EBF4700C3B2B4 /* secp256k1_zkp.c in Sources */,
 				731EB0B020F8447000A1C4D0 /* ViewController.m in Sources */,
+				70EA5AC822700EE600486863 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				707C4734226EBF4700C3B2B4 /* MnemonicCode.m in Sources */,
 				707C4730226EBF4700C3B2B4 /* MBigNumber.m in Sources */,
 				707C4733226EBF4700C3B2B4 /* pbkdf2.c in Sources */,
 				707C474D226EBF4700C3B2B4 /* Parameter.m in Sources */,
+				70EA5AC522700EE600486863 /* UIAlertView+AFNetworking.m in Sources */,
 				707C4741226EBF4700C3B2B4 /* ONTDeterministicKey.m in Sources */,
 				707C4752226EBF4700C3B2B4 /* NSString+Base58.m in Sources */,
 				707C474F226EBF4700C3B2B4 /* ONTTransactionNotifyInfo.m in Sources */,
@@ -1002,11 +883,13 @@
 				707C473A226EBF4700C3B2B4 /* ONTInvokeCode.m in Sources */,
 				707C4744226EBF4700C3B2B4 /* ONTNativeBuildParams.m in Sources */,
 				707C4723226EBF4700C3B2B4 /* IAGBitwiseComponents.m in Sources */,
+				70EA5ACD22700EE600486863 /* AFURLResponseSerialization.m in Sources */,
 				707C4729226EBF4700C3B2B4 /* uECC.c in Sources */,
 				707C474A226EBF4700C3B2B4 /* NeoVM.m in Sources */,
 				707C4728226EBF4700C3B2B4 /* ripemd160.c in Sources */,
 				707C4732226EBF4700C3B2B4 /* ecdsa.c in Sources */,
 				707C4751226EBF4700C3B2B4 /* NSData+Extend.m in Sources */,
+				70EA5AD522700EE600486863 /* AFSecurityPolicy.m in Sources */,
 				707C473C226EBF4700C3B2B4 /* ONTAddress.m in Sources */,
 				707C472E226EBF4700C3B2B4 /* sha3.c in Sources */,
 				707C4710226EBF4700C3B2B4 /* ONTRestfulApi.m in Sources */,
@@ -1014,6 +897,8 @@
 				707C472F226EBF4700C3B2B4 /* crypto_scrypt-nosse.c in Sources */,
 				707C471D226EBF4700C3B2B4 /* rand.c in Sources */,
 				707C471C226EBF4700C3B2B4 /* hasher.c in Sources */,
+				70EA5AD122700EE600486863 /* AFHTTPRequestOperationManager.m in Sources */,
+				70EA5AC622700EE600486863 /* UIProgressView+AFNetworking.m in Sources */,
 				707C4716226EBF4700C3B2B4 /* ONTTransaction.m in Sources */,
 				707C4740226EBF4700C3B2B4 /* ONTECKey.m in Sources */,
 				707C471B226EBF4700C3B2B4 /* sha2.c in Sources */,
@@ -1026,12 +911,16 @@
 				707C4714226EBF4700C3B2B4 /* ONTBalance.m in Sources */,
 				707C4718226EBF4700C3B2B4 /* ONTAttribute.m in Sources */,
 				707C4738226EBF4700C3B2B4 /* ECKeySignature.m in Sources */,
+				70EA5AD022700EE600486863 /* AFURLSessionManager.m in Sources */,
 				707C4736226EBF4700C3B2B4 /* ChildNumber.m in Sources */,
 				707C4719226EBF4700C3B2B4 /* bip39.c in Sources */,
 				707C4739226EBF4700C3B2B4 /* ONTIdentity.m in Sources */,
 				707C4753226EBF4700C3B2B4 /* NSData+Hash.m in Sources */,
+				70EA5AC722700EE600486863 /* UIRefreshControl+AFNetworking.m in Sources */,
 				707C471A226EBF4700C3B2B4 /* hmac.c in Sources */,
+				70EA5ACA22700EE600486863 /* UIButton+AFNetworking.m in Sources */,
 				707C4726226EBF4700C3B2B4 /* secp256k1.c in Sources */,
+				70EA5ACC22700EE600486863 /* UIWebView+AFNetworking.m in Sources */,
 				707C4742226EBF4700C3B2B4 /* ONTPrivateKey.m in Sources */,
 				707C4745226EBF4700C3B2B4 /* ONTInteger.m in Sources */,
 				707C4755226EBF4700C3B2B4 /* NSMutableData+Extend.m in Sources */,
@@ -1042,7 +931,9 @@
 				707C473D226EBF4700C3B2B4 /* ONTScriptReader.m in Sources */,
 				707C4749226EBF4700C3B2B4 /* ONTLong.m in Sources */,
 				707C4754226EBF4700C3B2B4 /* SHAHash.m in Sources */,
+				70EA5AD322700EE600486863 /* AFHTTPRequestOperation.m in Sources */,
 				707C472B226EBF4700C3B2B4 /* memzero.c in Sources */,
+				70EA5AD222700EE600486863 /* AFURLRequestSerialization.m in Sources */,
 				707C471E226EBF4700C3B2B4 /* blake256.c in Sources */,
 				707C4747226EBF4700C3B2B4 /* ONTBool.m in Sources */,
 				707C4743226EBF4700C3B2B4 /* ONTPublicKey.m in Sources */,
@@ -1051,45 +942,21 @@
 				707C471F226EBF4700C3B2B4 /* IAGAesGcm.m in Sources */,
 				707C4722226EBF4700C3B2B4 /* IAGGcmMathComponents.m in Sources */,
 				707C474C226EBF4700C3B2B4 /* Oep4.m in Sources */,
+				70EA5ACF22700EE600486863 /* AFURLConnectionOperation.m in Sources */,
+				70EA5ACB22700EE600486863 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				707C4711226EBF4700C3B2B4 /* ONTRpcApi.m in Sources */,
+				70EA5ACE22700EE600486863 /* AFHTTPSessionManager.m in Sources */,
 				731EB0AD20F8447000A1C4D0 /* AppDelegate.m in Sources */,
 				707C472D226EBF4700C3B2B4 /* scrypt_sha256.c in Sources */,
 				707C4721226EBF4700C3B2B4 /* IAGAesComponents.m in Sources */,
 				707C473F226EBF4700C3B2B4 /* ONTBufferReader.m in Sources */,
+				70EA5AC922700EE600486863 /* UIImageView+AFNetworking.m in Sources */,
+				70EA5AD422700EE600486863 /* AFNetworkReachabilityManager.m in Sources */,
 				707C4713226EBF4700C3B2B4 /* ONTUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		731EB0BC20F8447300A1C4D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				731EB0C520F8447300A1C4D0 /* ONTWalletTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		731EB0C720F8447300A1C4D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				731EB0D020F8447300A1C4D0 /* ONTWalletUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		731EB0C220F8447300A1C4D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 731EB0A720F8447000A1C4D0 /* ONTWallet */;
-			targetProxy = 731EB0C120F8447300A1C4D0 /* PBXContainerItemProxy */;
-		};
-		731EB0CD20F8447300A1C4D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 731EB0A720F8447000A1C4D0 /* ONTWallet */;
-			targetProxy = 731EB0CC20F8447300A1C4D0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		731EB0B120F8447000A1C4D0 /* Main.storyboard */ = {
@@ -1223,7 +1090,6 @@
 		};
 		731EB0D520F8447300A1C4D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D487DF2A23FCAD186719A5E /* Pods-ONTWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -1259,7 +1125,6 @@
 		};
 		731EB0D620F8447300A1C4D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A7E3002F8075FAC95E4635D /* Pods-ONTWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -1293,80 +1158,6 @@
 			};
 			name = Release;
 		};
-		731EB0D820F8447300A1C4D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B002374B5A3B6DDFB36B14F /* Pods-ONTWalletTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ONTWalletTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.medishares.ONTWalletTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ONTWallet.app/ONTWallet";
-			};
-			name = Debug;
-		};
-		731EB0D920F8447300A1C4D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C554FFA8220B7C411316F73D /* Pods-ONTWalletTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ONTWalletTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.medishares.ONTWalletTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ONTWallet.app/ONTWallet";
-			};
-			name = Release;
-		};
-		731EB0DB20F8447300A1C4D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 508A6CADBA3604F0B73D3018 /* Pods-ONTWalletUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ONTWalletUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.medishares.ONTWalletUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ONTWallet;
-			};
-			name = Debug;
-		};
-		731EB0DC20F8447300A1C4D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F05A289613B1909F132C17D1 /* Pods-ONTWalletUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ONTWalletUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.medishares.ONTWalletUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ONTWallet;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1384,24 +1175,6 @@
 			buildConfigurations = (
 				731EB0D520F8447300A1C4D0 /* Debug */,
 				731EB0D620F8447300A1C4D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		731EB0D720F8447300A1C4D0 /* Build configuration list for PBXNativeTarget "ONTWalletTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				731EB0D820F8447300A1C4D0 /* Debug */,
-				731EB0D920F8447300A1C4D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		731EB0DA20F8447300A1C4D0 /* Build configuration list for PBXNativeTarget "ONTWalletUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				731EB0DB20F8447300A1C4D0 /* Debug */,
-				731EB0DC20F8447300A1C4D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

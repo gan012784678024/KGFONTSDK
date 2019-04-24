@@ -22,7 +22,7 @@
 // THE SOFTWARE.
 
 #import "AFHTTPRequestOperationManager.h"
-#import <AFNetworking/AFNetworking.h>
+#import "AFNetworking.h"
 
 /**
  AFJSONRPCClient objects communicate with web services using the JSON-RPC 2.0 protocol.
