@@ -1,9 +1,9 @@
 //
 //  main.m
-//  ONTWallet
+//  ONTDS
 //
-//  Created by zhangyutao on 2018/7/13.
-//  Copyright © 2018年 zhangyutao. All rights reserved.
+//  Created by G 几点 on 2019/4/24.
+//  Copyright © 2019 G 几点. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

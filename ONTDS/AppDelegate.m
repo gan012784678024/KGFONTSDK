@@ -1,18 +1,13 @@
 //
 //  AppDelegate.m
-//  ONTWallet
+//  ONTDS
 //
-//  Created by zhangyutao on 2018/7/13.
-//  Copyright © 2018年 zhangyutao. All rights reserved.
+//  Created by G 几点 on 2019/4/24.
+//  Copyright © 2019 G 几点. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ONTIdentity.h"
-#import "ONTRpcApi.h"
-#import "Categories.h"
-
-#import "ONTScriptReader.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -22,7 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
+    self.window.rootViewController = [ViewController new];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

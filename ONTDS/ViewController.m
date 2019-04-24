@@ -1,10 +1,11 @@
 //
 //  ViewController.m
-//  ONTWallet
+//  ONTDS
 //
-//  Created by zhangyutao on 2018/7/13.
-//  Copyright © 2018年 zhangyutao. All rights reserved.
+//  Created by G 几点 on 2019/4/24.
+//  Copyright © 2019 G 几点. All rights reserved.
 //
+
 
 #import "ViewController.h"
 #import "ONT.h"
@@ -454,9 +455,9 @@
 - (void)testOep4QueryBalanceOf {
     ONTAccount *account = [[ONTAccount alloc] initWithName:@"ONT" password:@"123456" privateKeyHex:_privateKey];
     NSLog(@"%@", account.address.address);
-
+    
     [NeoVM shareInstance].oep4.contractAddress = _contractAddress;
-
+    
     [[NeoVM shareInstance].oep4 queryBalanceOf:account.address.address queryCallback:^(NSString *balance, NSError *error) {
         NSLog(@"balance == %@, %@", balance, [error localizedDescription]);
     }];
@@ -486,10 +487,10 @@
 
 - (void)testSendOep4 {
     [NeoVM shareInstance].oep4.contractAddress = _contractAddress;
-
+    
     ONTAccount *from = [[ONTAccount alloc] initWithName:@"ONT" password:@"123456" privateKeyHex:_privateKey];
     NSLog(@"from address:%@", from.address.address);
-
+    
     BOOL isPreExec = NO;
     [[NeoVM shareInstance].oep4 sendTransfer:from
                                           to:@"ASrLANryFnqwSt76h2YbhssdZeRGagRYem"
@@ -507,7 +508,7 @@
                                        } else {
                                            NSString *txhash = (NSString *)result;
                                            NSLog(@"txhash == %@", txhash);
-
+                                           
                                            [self testOep4QueryBalanceOf];
                                        }
                                    }
